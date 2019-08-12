@@ -2,7 +2,7 @@ language: elixir
 elixir: # Latest version of Elixir
   - 1.9.1
 addons: # ensure that Travis-CI provisions a DB for our test:
-  postgresql: '10.10'
+  postgresql: '9.5'
 services:
   - postgresql
 before_script:
